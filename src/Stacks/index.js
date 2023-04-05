@@ -7,6 +7,7 @@ import ListHrExtra from '../screens/ListHr';
 import CadServ from '../screens/CadServ';
 import CadHrExtra from '../screens/CadHrExtra';
 import Relat from '../screens/Relatorios';
+import Backup from '../screens/backup';
 // import RelHrExtra from '../screens/Relatorios/HrExtra';
 // import RelServ from '../screens/Relatorios/Serv';
 
@@ -25,6 +26,7 @@ export default () => (
         <Stack.Screen name='CadServ' component={CadServ}/>
         <Stack.Screen name='CadHrExtra' component={CadHrExtra}/>
         <Stack.Screen name='Relatorios' component={Relat}/>
+        <Stack.Screen name='Backup' component={Backup}/>
         {/* <Stack.Screen name='RelHrExtra' component={RelHrExtra}/> */}
         {/* <Stack.Screen name='RelServ' component={RelServ}/> */}
     </Stack.Navigator>

@@ -35,10 +35,11 @@ export default () => {
           await SelectQuery();
         })
         return unsubscribe;
-    }, [navigation]);
-
-    async function createTable() {
-    await ExecuteQuery("CREATE TABLE IF NOT EXISTS servicos"
+      }, [navigation]);
+      
+      async function createTable() {
+        setDados([])
+        await ExecuteQuery("CREATE TABLE IF NOT EXISTS servicos"
         +" (ID INTEGER PRIMARY KEY AUTOINCREMENT,"
         +" embarcacao TEXT,"
         +" equipamento TEXT,"

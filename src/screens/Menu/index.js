@@ -21,6 +21,10 @@ export default () => {
         navigation.navigate('Relatorios')
     }
 
+    function screenBck() {
+        navigation.navigate('Backup')
+    }
+
     return(
         <View style={estilos.container}>
             <Image source={logo} style={estilos.imagem} />
@@ -41,6 +45,12 @@ export default () => {
                 onPress={screenRel}
             >
                 <Text style={estilos.textItem}>Relatórios</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+                style={estilos.item}
+                onPress={screenBck}
+            >
+                <Text style={estilos.textItem}>Bakup</Text>
             </TouchableOpacity>
         </View>
     )

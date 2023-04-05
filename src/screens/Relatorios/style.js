@@ -47,7 +47,7 @@ const estilos = StyleSheet.create({
 
   modal: {
     width: '80%',
-    height: '25%',
+    padding: 10,
     marginTop: '65%',
     marginLeft: 'auto',
     marginRight: 'auto',
@@ -68,7 +68,7 @@ const estilos = StyleSheet.create({
     marginHorizontal: 10,
     marginTop: 10,
     borderRadius: 10,
-    borderColor: '#999',
+    borderColor: '#f00',
     borderStyle: 'solid',
     borderWidth: 2
   },
@@ -78,7 +78,7 @@ const estilos = StyleSheet.create({
     color: '#000',
     fontSize: 22,
     fontWeight: 'bold',
-    marginVertical: 5
+    marginVertical: 2
   },
 
   conteudo: {
@@ -91,6 +91,31 @@ const estilos = StyleSheet.create({
   viewBtnModal: {
     flexDirection: 'row',
   },
+
+  dtsContainer: {
+    flexDirection: 'row',
+    width: '100%',
+    justifyContent: 'space-evenly'
+  },
+
+  dts: {
+    width: '40%',
+    backgroundColor: '#fff',
+    color: '#000',
+    padding: 10,
+    borderRadius: 10,
+    borderColor: '#999',
+    borderStyle: 'solid',
+    borderWidth: 2
+  },
+
+  dtsText: {
+    textAlign: 'center'
+  },
+
+  textBtn: {
+    color: '#000'
+  }
 
 })
 

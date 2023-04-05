@@ -26,7 +26,7 @@ export default ({route}) => {
   const dateRef = useRef(null);
   const id = route.params.id;
 
-  useEffect(() => {
+useEffect(() => {
     if ( id > 0) {
       SelectQuery(id);
     }
